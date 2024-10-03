@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  margin: 10px;
+  position: relative;
+  height: 80vh; /* Ensure it takes up full screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+.board {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling for messages */
+  padding-bottom: 60px; /* Create space at the bottom for the input */
+}
+
+.input {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+}
+
+.board p {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 80%;
+  padding: 10px;
+  resize: none;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+}
