@@ -2,6 +2,7 @@ import {useState} from 'react';
 import styles from './App.module.css';
 import {en, Faker} from '@faker-js/faker';
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const faker = new Faker({
   locale: [en],
 });

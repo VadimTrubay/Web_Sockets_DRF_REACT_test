@@ -11,6 +11,7 @@
   height: 80vh; /* Ensure it takes up full screen height */
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .board {
@@ -27,13 +28,13 @@
 }
 
 .input {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   width: 100%;
   padding: 10px;
   background-color: #242424;
-  display: flex;
-  justify-content: center;
+  /*display: flex;*/
+  /*justify-content: left;*/
 }
 
 .board p {

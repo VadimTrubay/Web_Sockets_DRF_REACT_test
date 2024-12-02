@@ -19,7 +19,7 @@ urlpatterns = [
     ),
     path("auth/", include("djoser.urls")),
     path("auth/", include("djoser.urls.jwt")),
-    path('activate/<str:uid>/<str:token>/', ActivateUserEmail.as_view(), name='activate email')
-    # path("api/v1/", include("dialogs.urls")),
+    path('activate/<str:uid>/<str:token>/', ActivateUserEmail.as_view(), name='activate email'),
+    # path("", include("dialogs.urls")),
     # path("api/v1/", include("users.urls")),
 ]
